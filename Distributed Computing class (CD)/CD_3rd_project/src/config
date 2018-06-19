@@ -1,0 +1,8 @@
+serverLogger/ServerMainLogger l040101-ws01.ua.pt 22670
+serverSantaHouse/SantaHouseProxy l040101-ws02.ua.pt 22674
+serverStable/ServerMainStable l040101-ws03.ua.pt 22675
+serverFactory/serverMainFactory l040101-ws04.ua.pt 22677
+serverTripWithSanta/serverMainTripWSanta l040101-ws05.ua.pt 22676
+clientSanta/ClientMainSanta l040101-ws07.ua.pt 22671
+clientElf/ClientMainElf	l040101-ws08.ua.pt 22672
+clientReindeer/ClientMainReindeer l040101-ws09.ua.pt 22673

@@ -1,0 +1,15 @@
+The "classes" folder has all the scripts made by me.
+
+The "work_group_snake" folder has the group project for this class. The work consists in a snake game where it must eat two types of food to survive, one to think and another to move. There are two snakes in the game and they can communicate with each other as friends to reach the same goal, to survive. It has multiple maps, a random one that is created every time the game starts, and the others are in the maps folder.
+
+Our goal was to create the student.py class as an intelligent snake that plays the game by it self.
+
+Student.py explained:
+
+In this work we used pre-processing to find all the dead ends and the tunnels. The dead ends are considered as walls and the tunnels are to communicate with the other snake to avoid the other entrance.
+For the search we used a bidirectional algorithm with A*. We also created a sonar with a limited search to find nearby foods. We filter the foods in the snake vision as per the game situation and/or the communication between agents(snakes).
+
+For the communication between agents, they communicate when:
+- eat food, for the other to eliminate it from the history if saved before
+- when the other snake is in the vision to avoid going to the same food, here they continue to communicate until they know who is closer to the food
+- when it gets in a tunnel

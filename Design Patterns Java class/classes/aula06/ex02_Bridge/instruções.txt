@@ -1,0 +1,9 @@
+instruções.txt
+
+Correr programa e criar contactos
+
+guardar para formato CSV e/ou Serial
+
+depois de ter um ficheiro de contactos criado pelo programa já pode voltar a correr o programa e fazer load pelo ficheiro
+
+Para abrir o ficheiro "csv500samples.csv" tem de fazer alterações na classe "ContactsStorageCSV.java" no metodo "readCSVfile()" -> leia os comentarios

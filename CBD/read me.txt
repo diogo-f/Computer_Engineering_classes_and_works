@@ -1,0 +1,4 @@
+This class is mainly about noSQL databases and distributed databases and processing.
+
+This projects were made in group.
+The first project was to create a application with the databases in SQL server, and the second project was to change the first by implementing noSQL databases. We used MongoDB to save the information as documents where needed, Neo4j to save the logic between the IDs of multiple objects that where related, and SQL server to maintain the IDs increment order.
